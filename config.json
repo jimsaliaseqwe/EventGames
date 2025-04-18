@@ -1,0 +1,17 @@
+{
+    local: {
+        API_HOST: "http://192.168.50.142:8019",
+        WS_URL: "ws://192.168.50.142:12096/sb",
+        REMOTE_BUNDLES: "http://192.168.50.142:3000/bundles"
+    },
+    staging: {
+        API_HOST: "https://eventserver.tpgame.store",
+        WS_URL: "wss://eventserver.tpgame.store/main/",
+        REMOTE_BUNDLES: "https://eventclient.tpgame.store/bundles"
+    },
+    production: {
+        API_HOST: "https://quaythuong.com",
+        WS_URL: "wss://quaythuong.com/main/",
+        REMOTE_BUNDLES: "https://quaythuong/bundles"
+    }
+}
